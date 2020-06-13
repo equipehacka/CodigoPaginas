@@ -3,6 +3,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	overflow: hidden;
 	margin:245px;
+
 }
 
 form {
@@ -24,6 +25,7 @@ form {
 form img{
 	height: 20px;
 	display: inline;
+	margin: 0 10px;
 }
 
 form label, form legend{
@@ -40,7 +42,8 @@ form p {
 
 form a{
 	color:#ff9308;
-	font-weight: bold; 
+	font-weight: bold;
+	text-decoration: underline; 
 }
 
 .input-padrao{
@@ -53,7 +56,7 @@ form a{
   text-align: center;
   background: transparent;
   outline: none;
-  font-size: 18px;
+
 }
 
 #botao{
@@ -82,17 +85,7 @@ form a{
 	background: #1477a4;
   	transform:scale(1.2);
 }
-/*--------------------------------cadastro-----------------------------------------------*/
 
-/*body {
-   
-	background-repeat: no-repeat;
-	 background-image: linear-gradient(to bottom right, #3facf9, #001f58f2);
-    height: 700px;
-}*/
-
-
-/*teste*/
 .container {
     width: 30%;
     background-color: white;
