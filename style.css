@@ -35,12 +35,12 @@ form label, form legend{
 form p {
 	margin: 5px 0 240px;
 	font-size: 18px;
-	color: white;
 }
 
 form a{
-	color:#ff9308;
-	font-weight: bold; 
+	color:#bd3300;
+	font-weight: bold;
+	text-decoration: none; 
 }
 
 .input-padrao{
@@ -48,11 +48,13 @@ form a{
   margin: 0 0 30px;
   padding: 10px 25px;
   width: 80%;
-  border: none;
-  border-bottom:2px solid white;
+
+  border-top: none;
+  border-right: none;
+  border-left:none;
+  border-bottom-color:#1998D1;
   text-align: center;
   background: transparent;
-  outline: none;
 }
 
 #botao{
@@ -62,7 +64,6 @@ form a{
 	flex-direction: column;
 	min-height: 10vh;
 	margin: 50px 50px 0;
-	border:none;
 }
 
 .login {
