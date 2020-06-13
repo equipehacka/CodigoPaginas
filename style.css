@@ -1,7 +1,8 @@
 body{
 	background: #b5b5b5;
-	background: linear-gradient(#FEFEFE, #888888);
+	background-image: linear-gradient(to bottom right, #034db1f2, #000000);
 	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
 }
 
 form{
@@ -83,8 +84,9 @@ form a{
 /*--------------------------------cadastro-----------------------------------------------*/
 
 /*body {
-    background-image: linear-gradient(to bottom right, #3facf9, #001f58f2);
-    background-repeat: no-repeat;
+   
+	background-repeat: no-repeat;
+	 background-image: linear-gradient(to bottom right, #3facf9, #001f58f2);
     height: 700px;
 }*/
 
