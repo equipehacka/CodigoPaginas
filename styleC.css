@@ -1,17 +1,18 @@
 body{
 	background-image: linear-gradient(to bottom right, #034db1f2, #000000);
 	font-family: 'Roboto', sans-serif;
-	overflow: hidden;
-	margin:245px;
-
+	min-width: 50px;
+	margin:auto;
+	justify-content: center;
 }
 
 form {
-	margin: 400px 40px 0;
+	margin: 200px 40px 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+
 }
 
 .imagem{
@@ -34,6 +35,10 @@ form label, form legend{
   margin: 0 0 10px;
 }
 
+form label .input-file{
+	font-size: 18px;
+}
+
 form p {
 	margin: 25px 0 25px;
 	font-size: 18px;
@@ -51,12 +56,12 @@ form a{
   margin: 0 0 30px;
   padding: 10px 25px;
   width: 80%;
+  min-width: 100px;
   border: none;
   border-bottom:2px solid white;
   text-align: center;
   background: transparent;
   outline: none;
-
 }
 
 #botao{
@@ -69,7 +74,7 @@ form a{
 	border:none;
 }
 
-.login {
+.botao {
 	font-size: 25px;
 	font-weight: bold;
 	padding: 15px 20px;
@@ -81,28 +86,33 @@ form a{
 	cursor: pointer;
 }
 
-.login:hover{
+.botao:hover{
 	background: #1477a4;
   	transform:scale(1.2);
 }
 
 .container {
-    width: 30%;
-    background-color: white;
+    width: 40%;
+    background:transparent;
     margin: auto;
     margin-top: 42px;
     box-shadow: 0px 4px 16px #455B632E;
     padding: 19px;
     border-radius: 14px;
+    font-weight: bold;
+    min-width: 200px;
 }
 .container h3 {
     padding: 10px;
     text-align: center;
     font-size: 22pt;
-    color: #647370;
+    color: white;
 }
 .container .w33{
-    width: 41%;
+    width: 42%;
+    background: transparent;
+    border: none;
+    border-bottom:2px solid white;
 }
 .container input {
     border: 1px solid #dadada;
@@ -132,5 +142,38 @@ form a{
 }
 
  footer{
- 	background-image: linear-gradient(to bottom right, #034db1f2, #000000);
+ 	background:transparent;
+ 	margin: 0 0 391px;
  }
+
+ input[type='file'] {
+  display: none
+}
+
+.input-wrapper label {
+  background-color: #d14a10;
+  border-radius: 5px;
+  margin: 10px 10px 40px;
+  padding: 6px 20px;
+  width: 88%
+}
+
+
+.input-wrapper label:hover {
+  background-color: #ed5412;
+}
+
+.input-file{
+	font-size: 18px;
+	text-align: center;
+	color:white;
+}
+
+div.titulo {
+  text-align: center;
+  color: white;
+}
+div.titulo span {
+  position: relative;
+  
+}

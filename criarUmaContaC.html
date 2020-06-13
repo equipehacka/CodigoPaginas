@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crie sua Conta</title>
+</head>
+    <body>
+
+        <form>
+            <div class="container" >
+                    <h3>Crie sua Conta!</h3>
+
+                    <div class="titulo">
+                        <span><h5>Dados Pessoais</h5></span>
+                    </div>
+
+                    <input type="text" class="input-padrao" placeholder="Nome Completo" required>
+
+                    <input type="text" class="input-padrao" data-ls-module="charCounter" maxlength="11" placeholder="CPF" required>
+
+                    <input class="w33" class="input-padrao" data-ls-module="charCounter" maxlength="11" type="text" placeholder="CNH" required>
+
+                    <input class="w33" class="input-padrao" type="date" placeholder="/ /" required>
+
+                    <div class="input-wrapper">
+                      <label for="input-file" class="input-file">Exame toxicológico</label>
+                      <input id="input-file" type="file" value=''/>
+                      <span id="file-name"></span>
+                    </div>
+
+                    <div class="titulo">
+                        <span><h5>Endereço</h5></span>
+                    </div>
+                    <input type="text" class="input-padrao" placeholder="Rua" required>
+                    <input type="text" class="w33" class="input-padrao" data-ls-module="charCounter" maxlength="8" placeholder="CEP" required>
+                    <input type="text" class="w33" class="input-padrao" placeholder="Bairro" required>
+                    <input type="text" class="w33" class="input-padrao" placeholder="Número" required>
+                    <input type="text" class="w33" class="input-padrao" placeholder="Complemento" required>
+
+                    <div class="titulo">
+                        <span><h5>Dados Bancários</h5></span>
+                    </div>
+                    <input type="text" class="input-padrao" placeholder="Banco" required>
+                    <input type="text" class="w33" class="input-padrao" placeholder="Agência" required>
+                    <input type="text" class="w33" class="input-padrao" placeholder="Conta" required>
+
+
+                    <div>
+                        <button class="btn-salvar">SALVAR</button>
+                    </div>
+            </div>
+        </form>
+    
+    </body>
+</html>
