@@ -1,0 +1,81 @@
+body{
+	background: #b5b5b5;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+form{
+	margin: 400px 40px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.imagem{
+	display: inherit;
+}
+
+.imagem-senha{
+	display: inherit;
+}
+
+form img{
+	height: 20px;
+	display: inline;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form p {
+	margin: 5px 0 240px;
+	font-size: 18px;
+}
+
+form a{
+	color:#bd3300;
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+.input-padrao{
+  display: flex; 
+  margin: 0 0 30px;
+  padding: 10px 25px;
+  width: 80%;
+  border-top: none;
+  border-right: none;
+  border-left:none;
+  border-bottom-color:#1998D1;
+  text-align: center;
+  background: transparent;
+}
+
+#botao{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 10vh;
+	margin: 50px 50px 0;
+}
+
+.login {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 15px 20px;
+	background: #1998D1;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.login:hover{
+	background: #1477a4;
+  	transform:scale(1.2);
+}
