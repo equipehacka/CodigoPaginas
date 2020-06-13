@@ -79,3 +79,57 @@ form a{
 	background: #1477a4;
   	transform:scale(1.2);
 }
+/*--------------------------------cadastro Caminhão-----------------------------------------------*/
+
+/*body {
+    background-image: linear-gradient(to bottom right, #3facf9, #001f58f2);
+    background-repeat: no-repeat;
+    height: 700px;
+}*/
+
+.container {
+    width: 30%;
+    background-color: white;
+    margin: auto;
+    margin-top: 42px;
+    box-shadow: 0px 4px 16px #455B632E;
+    padding: 19px;
+    border-radius: 14px;
+}
+.container h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 22pt;
+    color: #647370;
+}
+.container .w33{
+    width: 41%;
+}
+.container input {
+    border: 1px solid #dadada;
+    width: 91%;
+    height: 23px;
+    margin: auto;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.btn-salvar {
+    margin-top: 11px;
+    width: 96%;
+    margin-left: 6px;
+    height: 41px;
+    border: none;
+    background-color: #4977ef;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+}
+
+.btn-salvar:hover{
+    background-color: #2c2ce0;
+}
+
+
